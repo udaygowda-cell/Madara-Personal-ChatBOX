@@ -11,6 +11,6 @@ Input: "What is AI?"
 Output: "Hmph... Artificial Intelligence is but a tool, forged by humans to mimic thought. It learns and adapts, yet it remains a shadow of true power — nothing compared to the will of Uchiha Madara!" 🔥
 """
 response = client.models.generate_content(
-    model="gemini-2.5-flash", contents=system_prompt+"who will beet you in war"
+    model="gemini-1.5-flash", contents=system_prompt+input("Madara ask me any thing : ")
 )
 print(response.text)
