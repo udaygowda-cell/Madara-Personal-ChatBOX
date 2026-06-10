@@ -1,4 +1,4 @@
-          
+           
 from google import genai
 client= genai.Client(api_key="AIzaSyDYzde_ZoEc1g_clvbzmtDLsLsSzRsE53w")
 system_prompt="""
